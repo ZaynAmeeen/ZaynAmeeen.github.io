@@ -1,0 +1,176 @@
+  @import url(https://fonts.googleapis.com/css2?family=Poppins);
+  *{
+      font-family: 'Poppins';
+  }
+
+  body {
+      height: 1000px;
+      display: flex;;
+      align-items: center;
+      justify-content: center;
+      background-image: url("https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+      object-fit: cover;
+  }
+
+  body .form-login{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+body .form-login input{
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  padding-left: 28px;
+  background-color: #E5E9F2;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+} 
+
+body .form-login h3{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+} 
+
+body .form-login p{
+  text-align: right;
+  margin-top: -8px;
+  margin-bottom: 35px;
+} 
+body .form-login p .link-lupa-password{
+  text-decoration: none;
+  color: #999aa4;
+  font-size: 15px;
+  font-weight: 400;
+} 
+body .form-login p .link-lupa-password:hover{
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+  font-weight: 400;
+} 
+
+body .form-login .btn-login{
+  margin-top: 0px;
+  width: 100%;
+  border: 0;
+  height: 40px;
+  background-repeat: 50px;
+  background-color: #2447f9;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+body .form-login .btn-regis{
+  margin-top: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 0;
+  height: 40px;
+  background-color: #2d2d30;
+  color: #fff;
+  padding-left: 35px;
+  font-weight: 50;
+  border-radius: 10px;
+  font-weight: 50;
+  cursor:pointer;
+}
+
+body .form-login .btn-google{
+  margin-top: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 0;
+  height: 40px;
+  background-color: #2b2b8e;
+  color: #fff;
+  padding-left: 35px;
+  font-weight: 50;
+  border-radius: 10px;
+  font-weight: 50;
+  cursor:pointer;
+}
+
+  /* Bordered form */
+  form {
+      border: 3px solid #f1f1f1;
+    }
+    
+    /* Full-width inputs */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    /* Add a hover effect for buttons */
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    /* Extra style for the cancel button (red) */
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    
+    /* Center the avatar image inside this container */
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+    
+    /* Avatar image */
+    img.avatar {
+      width: 40%;
+      border-radius: 50%;
+    }
+    
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+    }
+    
+    /* The "Forgot password" text */
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+        display: block;
+        float: none;
+      }
+      .cancelbtn {
+        width: 100%;
+      }
+    }
+
+    
